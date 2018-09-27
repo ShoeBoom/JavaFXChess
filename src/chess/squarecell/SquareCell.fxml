@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import java.net.URL?>
+<fx:root xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8"
+         fx:id="root" prefWidth="400" prefHeight="400" type="Pane">
+	<stylesheets>
+		<URL value="@res/stylesheet.css"/>
+	</stylesheets>
+
+	<ImageView fx:id="imageView" pickOnBounds="true" preserveRatio="true"/>
+</fx:root>
+

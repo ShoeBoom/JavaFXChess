@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.121"
+            fx:controller="chess.ChessGameController">
+
+
+	<stylesheets>
+		<URL value="@res/stylesheet.css"/>
+	</stylesheets>
+
+	<top>
+		<VBox alignment="CENTER" BorderPane.alignment="CENTER">
+			<Label id="title" fx:id="title" text="Chess"/>
+			<HBox alignment="CENTER">
+				<Label text="White Wins: "/>
+				<Label fx:id="whiteWinsCounter" text="0"/>
+			</HBox>
+
+			<HBox alignment="CENTER">
+				<Label text="Black Wins: "/>
+				<Label fx:id="blackWinsCounter" text="0"/>
+			</HBox>
+
+		</VBox>
+	</top>
+
+	<center>
+		<GridPane fx:id="gridPane" alignment="center" BorderPane.alignment="CENTER"/>
+	</center>
+
+	<bottom>
+		<VBox alignment="TOP_CENTER">
+			<Button id="reset-button" onAction="#reset" mnemonicParsing="false" text="Reset"
+			        BorderPane.alignment="CENTER"/>
+		</VBox>
+	</bottom>
+</BorderPane>
