@@ -8,3 +8,8 @@ Basic implementation of Chess using JavaFX.
 
 * JDK 8 or higher 
 * JavaFX
+
+## Features
+* Promotion
+* 2 player
+* Win-Loss Tracking
