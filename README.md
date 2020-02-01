@@ -1,6 +1,7 @@
 # JavaFXChess
-
 Basic implementation of Chess using JavaFX.
+
+![program screenshot](./screenshot.png)
 
 ## Getting Started
 
@@ -13,3 +14,4 @@ Basic implementation of Chess using JavaFX.
 * Promotion
 * 2 player
 * Win-Loss Tracking
+
